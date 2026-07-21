@@ -23,7 +23,7 @@ connection.connect((err) => {
         return;
     }
 
-    console.log("✅ Database Connected Successfully!");
+    console.log(" Database Connected Successfully!");
 });
 
 // Home Route
@@ -44,5 +44,5 @@ app.get("/", (req, res) => {
 
 // Start Server
 app.listen(8080, () => {
-    console.log("🚀 Server is listening on port 8080");
+    console.log(" Server is listening on port 8080");
 });
